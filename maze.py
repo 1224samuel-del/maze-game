@@ -278,7 +278,7 @@ class MazeGame:
         self._new_game()
 
     def _init_fonts(self) -> None:
-        for name in ("monospace", "couriernew", "arial", None):
+        for name in ("microsoftjhenghei", "mingliu", "pingfangtc", "arial", None):
             try:
                 self.font_sm  = pygame.font.SysFont(name, 14, bold=True)
                 self.font_mid = pygame.font.SysFont(name, 18, bold=True)
